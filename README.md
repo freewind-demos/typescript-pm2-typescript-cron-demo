@@ -1,7 +1,7 @@
-TypeScript PM2 Typescript Demo
+TypeScript PM2 Typescript Cron Demo
 ===========================
 
-注意：需要使用当前安装的`pm2`安装`typescript`才行，见`postinstall`。
+如何使用`pm2`以cron的方式运行任务。
 
 ```
 npm install

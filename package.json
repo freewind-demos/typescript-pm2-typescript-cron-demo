@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "demo": "pm2 start hello.ts",
+    "//demo": "run at every minute",
+    "demo": "pm2 start hello.ts --cron '*/1 * * * *'",
     "postinstall": "./node_modules/.bin/pm2 install typescript"
   },
   "devDependencies": {
